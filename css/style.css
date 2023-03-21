@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+body{
+	
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.btn-light{
+	padding: 17px 30px;
+	border-radius: 60px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#hero-slides{
+	font-style:normal;
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+#welcome {
+	
+	font-size: 100;
+	font-weight: 700;
+}
+#intro{
+	text-align: center;
+	padding: 40px;
+	font-size: 15px;
+	color:rgba(73,73,73,1.00);
+}
+
+#design{
+	padding: 20px;
+}
+
+#shortcodes{
+	padding: 20px;
+}
+
+#updates{
+	padding: 20px;
+}
+
+#services{
+	padding: 50px;
+	text-align: center;
+	font-size: 15px;
+	color:rgba(73,73,73,1.00);
+}
+
+#retina{
+	padding-bottom:20px;
+}
+
+#easy{
+	padding-bottom:20px;
+}
+
+#free{
+	padding-bottom:20px;
+}
+
+#social{
+	padding-bottom:20px;
+}
+
+#cta {
+	background-image: url("../img/home-grid-banner.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 60px;
+}
+
+#awesome{
+	font-weight: 700;
+}
+
+#clients{
+	padding: 50px;
+}
+
+
+
